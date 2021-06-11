@@ -329,6 +329,14 @@ body.scale-effect .btn-holder .btn-play {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+
+.single-info {
+  padding: 10px;
+  /* border: 1px solid #fff; */
+  display: inline-block;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+}
+
 #home .menu a:hover {
   color: #1976d2;
 }
@@ -458,7 +466,7 @@ body.scale-effect .btn-holder .btn-play {
 #v-card-holder #v-card {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 470px;
   overflow: hidden;
   -webkit-transition: height 1s, color 1s, margin 1s;
   transition: height 1s, color 1s, margin 1s;
@@ -497,6 +505,11 @@ body.scale-effect .btn-holder .btn-play {
 #v-card-holder #v-card .infos .profile-list .info-list {
   font-weight: bold;
   text-shadow: 2px 2px 4px rgb(0 0 0 / 29%);
+  padding: 10px;
+  border: 1px solid #fff;
+  display: inline-block;
+  width: 55%;
+  margin-bottom: 10px;
 }
 
 #v-card-holder #v-card .links {
@@ -549,7 +562,7 @@ body.scale-effect .btn-holder .btn-play {
   z-index: 1;
   position: absolute;
   border-style: solid;
-  border-width: 400px 0 0 55px;
+  border-width: 470px 0 0 55px;
   border-color: rgba(223, 50, 50, 0) transparent transparent #142a4a;
 }
 #v-card-holder #v-card #profile .add-btn {
